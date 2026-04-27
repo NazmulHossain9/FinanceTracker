@@ -4,21 +4,26 @@
 
 enum class TransactionType { INCOME, EXPENSE };
 
+QString typeToString(TransactionType type);
+
 class Transaction {
 public:
-    Transaction(int id, const QString& title,
-                double amount, TransactionType type,
-                const QString& category, const QDate& date);
+    // From DB (has id)
+    Transaction(int id, const QString& title, double amount,
+                TransactionType type, const QString& category, const QDate& date);
+    // New transaction (id assigned by DB)
+    Transaction(const QString& title, double amount,
+                TransactionType type, const QString& category, const QDate& date);
 
-    // Getters
-    int         getId()       const { return m_id; }
-    QString     getTitle()    const { return m_title; }
-    double      getAmount()   const { return m_amount; }
-    TransactionType getType() const { return m_type; }
-    QString     getCategory() const { return m_category; }
-    QDate       getDate()     const { return m_date; }
+    int             getId()       const { return m_id; }
+    QString         getTitle()    const { return m_title; }
+    double          getAmount()   const { return m_amount; }
+    TransactionType getType()     const { return m_type; }
+    QString         getCategory() const { return m_category; }
+    QDate           getDate()     const { return m_date; }
 
-    bool isExpense() const { return m_type == TransactionType::EXPENSE; }
+    bool    isExpense()       const { return m_type == TransactionType::EXPENSE; }
+    QString formattedAmount() const;
 
 private:
     int             m_id;

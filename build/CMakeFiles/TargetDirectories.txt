@@ -1,0 +1,9 @@
+/home/nazmul/Desktop/FinanceTracker/build/CMakeFiles/FinanceTracker.dir
+/home/nazmul/Desktop/FinanceTracker/build/CMakeFiles/FinanceTrackerTests.dir
+/home/nazmul/Desktop/FinanceTracker/build/CMakeFiles/test.dir
+/home/nazmul/Desktop/FinanceTracker/build/CMakeFiles/edit_cache.dir
+/home/nazmul/Desktop/FinanceTracker/build/CMakeFiles/rebuild_cache.dir
+/home/nazmul/Desktop/FinanceTracker/build/CMakeFiles/FinanceTracker_autogen_timestamp_deps.dir
+/home/nazmul/Desktop/FinanceTracker/build/CMakeFiles/FinanceTracker_autogen.dir
+/home/nazmul/Desktop/FinanceTracker/build/CMakeFiles/FinanceTrackerTests_autogen_timestamp_deps.dir
+/home/nazmul/Desktop/FinanceTracker/build/CMakeFiles/FinanceTrackerTests_autogen.dir

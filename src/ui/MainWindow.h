@@ -13,6 +13,8 @@ public:
 private slots:
     void onAddTransaction();
     void onDeleteTransaction();
+    void onExportCSV();
+    void onShowDashboard();
     void refreshTable();
     void updateSummary();
 
