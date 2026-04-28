@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/nazmul/Desktop/FinanceTracker
+CMAKE_SOURCE_DIR = "/home/nazmul/Desktop/FinanceTracker "
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/nazmul/Desktop/FinanceTracker/build
+CMAKE_BINARY_DIR = "/home/nazmul/Desktop/FinanceTracker /build"
 
 # Utility rule file for FinanceTrackerTests_autogen.
 
@@ -71,9 +71,9 @@ CMakeFiles/FinanceTrackerTests_autogen: FinanceTrackerTests_autogen/timestamp
 FinanceTrackerTests_autogen/timestamp: /usr/lib/qt6/libexec/moc
 FinanceTrackerTests_autogen/timestamp: /usr/lib/qt6/libexec/uic
 FinanceTrackerTests_autogen/timestamp: CMakeFiles/FinanceTrackerTests_autogen.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nazmul/Desktop/FinanceTracker/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC and UIC for target FinanceTrackerTests"
-	/usr/bin/cmake -E cmake_autogen /home/nazmul/Desktop/FinanceTracker/build/CMakeFiles/FinanceTrackerTests_autogen.dir/AutogenInfo.json ""
-	/usr/bin/cmake -E touch /home/nazmul/Desktop/FinanceTracker/build/FinanceTrackerTests_autogen/timestamp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir="/home/nazmul/Desktop/FinanceTracker /build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC and UIC for target FinanceTrackerTests"
+	/usr/bin/cmake -E cmake_autogen "/home/nazmul/Desktop/FinanceTracker /build/CMakeFiles/FinanceTrackerTests_autogen.dir/AutogenInfo.json" Release
+	/usr/bin/cmake -E touch "/home/nazmul/Desktop/FinanceTracker /build/FinanceTrackerTests_autogen/timestamp"
 
 FinanceTrackerTests_autogen: CMakeFiles/FinanceTrackerTests_autogen
 FinanceTrackerTests_autogen: FinanceTrackerTests_autogen/timestamp
@@ -89,6 +89,6 @@ CMakeFiles/FinanceTrackerTests_autogen.dir/clean:
 .PHONY : CMakeFiles/FinanceTrackerTests_autogen.dir/clean
 
 CMakeFiles/FinanceTrackerTests_autogen.dir/depend:
-	cd /home/nazmul/Desktop/FinanceTracker/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/nazmul/Desktop/FinanceTracker /home/nazmul/Desktop/FinanceTracker /home/nazmul/Desktop/FinanceTracker/build /home/nazmul/Desktop/FinanceTracker/build /home/nazmul/Desktop/FinanceTracker/build/CMakeFiles/FinanceTrackerTests_autogen.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd "/home/nazmul/Desktop/FinanceTracker /build" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/home/nazmul/Desktop/FinanceTracker " "/home/nazmul/Desktop/FinanceTracker " "/home/nazmul/Desktop/FinanceTracker /build" "/home/nazmul/Desktop/FinanceTracker /build" "/home/nazmul/Desktop/FinanceTracker /build/CMakeFiles/FinanceTrackerTests_autogen.dir/DependInfo.cmake" "--color=$(COLOR)"
 .PHONY : CMakeFiles/FinanceTrackerTests_autogen.dir/depend
 

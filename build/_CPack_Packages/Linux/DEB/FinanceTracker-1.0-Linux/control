@@ -1,0 +1,13 @@
+Architecture: amd64
+Depends: libqt6core6 | libqt6core6t64, libqt6widgets6 | libqt6widgets6t64, libqt6sql6 | libqt6sql6t64, libqt6charts6 | libqt6charts6t64
+Description: Personal Finance Tracker
+ A Qt6 desktop application for tracking personal finances,
+ managing budgets, accounts, and transactions.
+Homepage: https://github.com/NazmulHossain9/FinanceTracker
+Maintainer: Nazmul Hossain <nazmul@glascutr.com>
+Package: financetracker
+Priority: optional
+Section: utils
+Version: 1.0
+Installed-Size: 1270
+

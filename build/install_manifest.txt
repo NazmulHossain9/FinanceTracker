@@ -1,0 +1,3 @@
+/usr/bin/FinanceTracker
+/usr/share/icons/hicolor/256x256/apps/FinanceTracker.png
+/usr/share/applications/FinanceTracker.desktop

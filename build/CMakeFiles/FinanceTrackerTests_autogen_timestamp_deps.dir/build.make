@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/nazmul/Desktop/FinanceTracker
+CMAKE_SOURCE_DIR = "/home/nazmul/Desktop/FinanceTracker "
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/nazmul/Desktop/FinanceTracker/build
+CMAKE_BINARY_DIR = "/home/nazmul/Desktop/FinanceTracker /build"
 
 # Utility rule file for FinanceTrackerTests_autogen_timestamp_deps.
 
@@ -66,8 +66,8 @@ include CMakeFiles/FinanceTrackerTests_autogen_timestamp_deps.dir/compiler_depen
 # Include the progress variables for this target.
 include CMakeFiles/FinanceTrackerTests_autogen_timestamp_deps.dir/progress.make
 
-CMakeFiles/FinanceTrackerTests_autogen_timestamp_deps: /usr/lib/qt6/libexec/moc
 CMakeFiles/FinanceTrackerTests_autogen_timestamp_deps: /usr/lib/x86_64-linux-gnu/libQt6Core.so.6.4.2
+CMakeFiles/FinanceTrackerTests_autogen_timestamp_deps: /usr/lib/qt6/libexec/moc
 CMakeFiles/FinanceTrackerTests_autogen_timestamp_deps: /usr/lib/qt6/libexec/uic
 CMakeFiles/FinanceTrackerTests_autogen_timestamp_deps: /usr/lib/x86_64-linux-gnu/libQt6Test.so.6.4.2
 
@@ -84,6 +84,6 @@ CMakeFiles/FinanceTrackerTests_autogen_timestamp_deps.dir/clean:
 .PHONY : CMakeFiles/FinanceTrackerTests_autogen_timestamp_deps.dir/clean
 
 CMakeFiles/FinanceTrackerTests_autogen_timestamp_deps.dir/depend:
-	cd /home/nazmul/Desktop/FinanceTracker/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/nazmul/Desktop/FinanceTracker /home/nazmul/Desktop/FinanceTracker /home/nazmul/Desktop/FinanceTracker/build /home/nazmul/Desktop/FinanceTracker/build /home/nazmul/Desktop/FinanceTracker/build/CMakeFiles/FinanceTrackerTests_autogen_timestamp_deps.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd "/home/nazmul/Desktop/FinanceTracker /build" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/home/nazmul/Desktop/FinanceTracker " "/home/nazmul/Desktop/FinanceTracker " "/home/nazmul/Desktop/FinanceTracker /build" "/home/nazmul/Desktop/FinanceTracker /build" "/home/nazmul/Desktop/FinanceTracker /build/CMakeFiles/FinanceTrackerTests_autogen_timestamp_deps.dir/DependInfo.cmake" "--color=$(COLOR)"
 .PHONY : CMakeFiles/FinanceTrackerTests_autogen_timestamp_deps.dir/depend
 

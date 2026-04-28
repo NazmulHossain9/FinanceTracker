@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/nazmul/Desktop/FinanceTracker
+CMAKE_SOURCE_DIR = "/home/nazmul/Desktop/FinanceTracker "
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/nazmul/Desktop/FinanceTracker/build
+CMAKE_BINARY_DIR = "/home/nazmul/Desktop/FinanceTracker /build"
 
 # Include any dependencies generated for this target.
 include CMakeFiles/FinanceTracker.dir/depend.make
@@ -72,149 +72,149 @@ include CMakeFiles/FinanceTracker.dir/flags.make
 FinanceTracker_autogen/timestamp: /usr/lib/qt6/libexec/moc
 FinanceTracker_autogen/timestamp: /usr/lib/qt6/libexec/uic
 FinanceTracker_autogen/timestamp: CMakeFiles/FinanceTracker.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nazmul/Desktop/FinanceTracker/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC and UIC for target FinanceTracker"
-	/usr/bin/cmake -E cmake_autogen /home/nazmul/Desktop/FinanceTracker/build/CMakeFiles/FinanceTracker_autogen.dir/AutogenInfo.json ""
-	/usr/bin/cmake -E touch /home/nazmul/Desktop/FinanceTracker/build/FinanceTracker_autogen/timestamp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir="/home/nazmul/Desktop/FinanceTracker /build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC and UIC for target FinanceTracker"
+	/usr/bin/cmake -E cmake_autogen "/home/nazmul/Desktop/FinanceTracker /build/CMakeFiles/FinanceTracker_autogen.dir/AutogenInfo.json" Release
+	/usr/bin/cmake -E touch "/home/nazmul/Desktop/FinanceTracker /build/FinanceTracker_autogen/timestamp"
 
 CMakeFiles/FinanceTracker.dir/FinanceTracker_autogen/mocs_compilation.cpp.o: CMakeFiles/FinanceTracker.dir/flags.make
 CMakeFiles/FinanceTracker.dir/FinanceTracker_autogen/mocs_compilation.cpp.o: FinanceTracker_autogen/mocs_compilation.cpp
 CMakeFiles/FinanceTracker.dir/FinanceTracker_autogen/mocs_compilation.cpp.o: CMakeFiles/FinanceTracker.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/nazmul/Desktop/FinanceTracker/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/FinanceTracker.dir/FinanceTracker_autogen/mocs_compilation.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/FinanceTracker.dir/FinanceTracker_autogen/mocs_compilation.cpp.o -MF CMakeFiles/FinanceTracker.dir/FinanceTracker_autogen/mocs_compilation.cpp.o.d -o CMakeFiles/FinanceTracker.dir/FinanceTracker_autogen/mocs_compilation.cpp.o -c /home/nazmul/Desktop/FinanceTracker/build/FinanceTracker_autogen/mocs_compilation.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/nazmul/Desktop/FinanceTracker /build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/FinanceTracker.dir/FinanceTracker_autogen/mocs_compilation.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/FinanceTracker.dir/FinanceTracker_autogen/mocs_compilation.cpp.o -MF CMakeFiles/FinanceTracker.dir/FinanceTracker_autogen/mocs_compilation.cpp.o.d -o CMakeFiles/FinanceTracker.dir/FinanceTracker_autogen/mocs_compilation.cpp.o -c "/home/nazmul/Desktop/FinanceTracker /build/FinanceTracker_autogen/mocs_compilation.cpp"
 
 CMakeFiles/FinanceTracker.dir/FinanceTracker_autogen/mocs_compilation.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/FinanceTracker.dir/FinanceTracker_autogen/mocs_compilation.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nazmul/Desktop/FinanceTracker/build/FinanceTracker_autogen/mocs_compilation.cpp > CMakeFiles/FinanceTracker.dir/FinanceTracker_autogen/mocs_compilation.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/nazmul/Desktop/FinanceTracker /build/FinanceTracker_autogen/mocs_compilation.cpp" > CMakeFiles/FinanceTracker.dir/FinanceTracker_autogen/mocs_compilation.cpp.i
 
 CMakeFiles/FinanceTracker.dir/FinanceTracker_autogen/mocs_compilation.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/FinanceTracker.dir/FinanceTracker_autogen/mocs_compilation.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nazmul/Desktop/FinanceTracker/build/FinanceTracker_autogen/mocs_compilation.cpp -o CMakeFiles/FinanceTracker.dir/FinanceTracker_autogen/mocs_compilation.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/nazmul/Desktop/FinanceTracker /build/FinanceTracker_autogen/mocs_compilation.cpp" -o CMakeFiles/FinanceTracker.dir/FinanceTracker_autogen/mocs_compilation.cpp.s
 
 CMakeFiles/FinanceTracker.dir/src/main.cpp.o: CMakeFiles/FinanceTracker.dir/flags.make
-CMakeFiles/FinanceTracker.dir/src/main.cpp.o: /home/nazmul/Desktop/FinanceTracker/src/main.cpp
+CMakeFiles/FinanceTracker.dir/src/main.cpp.o: /home/nazmul/Desktop/FinanceTracker\ /src/main.cpp
 CMakeFiles/FinanceTracker.dir/src/main.cpp.o: CMakeFiles/FinanceTracker.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/nazmul/Desktop/FinanceTracker/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/FinanceTracker.dir/src/main.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/FinanceTracker.dir/src/main.cpp.o -MF CMakeFiles/FinanceTracker.dir/src/main.cpp.o.d -o CMakeFiles/FinanceTracker.dir/src/main.cpp.o -c /home/nazmul/Desktop/FinanceTracker/src/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/nazmul/Desktop/FinanceTracker /build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/FinanceTracker.dir/src/main.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/FinanceTracker.dir/src/main.cpp.o -MF CMakeFiles/FinanceTracker.dir/src/main.cpp.o.d -o CMakeFiles/FinanceTracker.dir/src/main.cpp.o -c "/home/nazmul/Desktop/FinanceTracker /src/main.cpp"
 
 CMakeFiles/FinanceTracker.dir/src/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/FinanceTracker.dir/src/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nazmul/Desktop/FinanceTracker/src/main.cpp > CMakeFiles/FinanceTracker.dir/src/main.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/nazmul/Desktop/FinanceTracker /src/main.cpp" > CMakeFiles/FinanceTracker.dir/src/main.cpp.i
 
 CMakeFiles/FinanceTracker.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/FinanceTracker.dir/src/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nazmul/Desktop/FinanceTracker/src/main.cpp -o CMakeFiles/FinanceTracker.dir/src/main.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/nazmul/Desktop/FinanceTracker /src/main.cpp" -o CMakeFiles/FinanceTracker.dir/src/main.cpp.s
 
 CMakeFiles/FinanceTracker.dir/src/models/Transaction.cpp.o: CMakeFiles/FinanceTracker.dir/flags.make
-CMakeFiles/FinanceTracker.dir/src/models/Transaction.cpp.o: /home/nazmul/Desktop/FinanceTracker/src/models/Transaction.cpp
+CMakeFiles/FinanceTracker.dir/src/models/Transaction.cpp.o: /home/nazmul/Desktop/FinanceTracker\ /src/models/Transaction.cpp
 CMakeFiles/FinanceTracker.dir/src/models/Transaction.cpp.o: CMakeFiles/FinanceTracker.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/nazmul/Desktop/FinanceTracker/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/FinanceTracker.dir/src/models/Transaction.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/FinanceTracker.dir/src/models/Transaction.cpp.o -MF CMakeFiles/FinanceTracker.dir/src/models/Transaction.cpp.o.d -o CMakeFiles/FinanceTracker.dir/src/models/Transaction.cpp.o -c /home/nazmul/Desktop/FinanceTracker/src/models/Transaction.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/nazmul/Desktop/FinanceTracker /build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/FinanceTracker.dir/src/models/Transaction.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/FinanceTracker.dir/src/models/Transaction.cpp.o -MF CMakeFiles/FinanceTracker.dir/src/models/Transaction.cpp.o.d -o CMakeFiles/FinanceTracker.dir/src/models/Transaction.cpp.o -c "/home/nazmul/Desktop/FinanceTracker /src/models/Transaction.cpp"
 
 CMakeFiles/FinanceTracker.dir/src/models/Transaction.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/FinanceTracker.dir/src/models/Transaction.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nazmul/Desktop/FinanceTracker/src/models/Transaction.cpp > CMakeFiles/FinanceTracker.dir/src/models/Transaction.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/nazmul/Desktop/FinanceTracker /src/models/Transaction.cpp" > CMakeFiles/FinanceTracker.dir/src/models/Transaction.cpp.i
 
 CMakeFiles/FinanceTracker.dir/src/models/Transaction.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/FinanceTracker.dir/src/models/Transaction.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nazmul/Desktop/FinanceTracker/src/models/Transaction.cpp -o CMakeFiles/FinanceTracker.dir/src/models/Transaction.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/nazmul/Desktop/FinanceTracker /src/models/Transaction.cpp" -o CMakeFiles/FinanceTracker.dir/src/models/Transaction.cpp.s
 
 CMakeFiles/FinanceTracker.dir/src/models/Account.cpp.o: CMakeFiles/FinanceTracker.dir/flags.make
-CMakeFiles/FinanceTracker.dir/src/models/Account.cpp.o: /home/nazmul/Desktop/FinanceTracker/src/models/Account.cpp
+CMakeFiles/FinanceTracker.dir/src/models/Account.cpp.o: /home/nazmul/Desktop/FinanceTracker\ /src/models/Account.cpp
 CMakeFiles/FinanceTracker.dir/src/models/Account.cpp.o: CMakeFiles/FinanceTracker.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/nazmul/Desktop/FinanceTracker/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/FinanceTracker.dir/src/models/Account.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/FinanceTracker.dir/src/models/Account.cpp.o -MF CMakeFiles/FinanceTracker.dir/src/models/Account.cpp.o.d -o CMakeFiles/FinanceTracker.dir/src/models/Account.cpp.o -c /home/nazmul/Desktop/FinanceTracker/src/models/Account.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/nazmul/Desktop/FinanceTracker /build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/FinanceTracker.dir/src/models/Account.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/FinanceTracker.dir/src/models/Account.cpp.o -MF CMakeFiles/FinanceTracker.dir/src/models/Account.cpp.o.d -o CMakeFiles/FinanceTracker.dir/src/models/Account.cpp.o -c "/home/nazmul/Desktop/FinanceTracker /src/models/Account.cpp"
 
 CMakeFiles/FinanceTracker.dir/src/models/Account.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/FinanceTracker.dir/src/models/Account.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nazmul/Desktop/FinanceTracker/src/models/Account.cpp > CMakeFiles/FinanceTracker.dir/src/models/Account.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/nazmul/Desktop/FinanceTracker /src/models/Account.cpp" > CMakeFiles/FinanceTracker.dir/src/models/Account.cpp.i
 
 CMakeFiles/FinanceTracker.dir/src/models/Account.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/FinanceTracker.dir/src/models/Account.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nazmul/Desktop/FinanceTracker/src/models/Account.cpp -o CMakeFiles/FinanceTracker.dir/src/models/Account.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/nazmul/Desktop/FinanceTracker /src/models/Account.cpp" -o CMakeFiles/FinanceTracker.dir/src/models/Account.cpp.s
 
 CMakeFiles/FinanceTracker.dir/src/models/Budget.cpp.o: CMakeFiles/FinanceTracker.dir/flags.make
-CMakeFiles/FinanceTracker.dir/src/models/Budget.cpp.o: /home/nazmul/Desktop/FinanceTracker/src/models/Budget.cpp
+CMakeFiles/FinanceTracker.dir/src/models/Budget.cpp.o: /home/nazmul/Desktop/FinanceTracker\ /src/models/Budget.cpp
 CMakeFiles/FinanceTracker.dir/src/models/Budget.cpp.o: CMakeFiles/FinanceTracker.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/nazmul/Desktop/FinanceTracker/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/FinanceTracker.dir/src/models/Budget.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/FinanceTracker.dir/src/models/Budget.cpp.o -MF CMakeFiles/FinanceTracker.dir/src/models/Budget.cpp.o.d -o CMakeFiles/FinanceTracker.dir/src/models/Budget.cpp.o -c /home/nazmul/Desktop/FinanceTracker/src/models/Budget.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/nazmul/Desktop/FinanceTracker /build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/FinanceTracker.dir/src/models/Budget.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/FinanceTracker.dir/src/models/Budget.cpp.o -MF CMakeFiles/FinanceTracker.dir/src/models/Budget.cpp.o.d -o CMakeFiles/FinanceTracker.dir/src/models/Budget.cpp.o -c "/home/nazmul/Desktop/FinanceTracker /src/models/Budget.cpp"
 
 CMakeFiles/FinanceTracker.dir/src/models/Budget.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/FinanceTracker.dir/src/models/Budget.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nazmul/Desktop/FinanceTracker/src/models/Budget.cpp > CMakeFiles/FinanceTracker.dir/src/models/Budget.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/nazmul/Desktop/FinanceTracker /src/models/Budget.cpp" > CMakeFiles/FinanceTracker.dir/src/models/Budget.cpp.i
 
 CMakeFiles/FinanceTracker.dir/src/models/Budget.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/FinanceTracker.dir/src/models/Budget.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nazmul/Desktop/FinanceTracker/src/models/Budget.cpp -o CMakeFiles/FinanceTracker.dir/src/models/Budget.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/nazmul/Desktop/FinanceTracker /src/models/Budget.cpp" -o CMakeFiles/FinanceTracker.dir/src/models/Budget.cpp.s
 
 CMakeFiles/FinanceTracker.dir/src/database/DatabaseManager.cpp.o: CMakeFiles/FinanceTracker.dir/flags.make
-CMakeFiles/FinanceTracker.dir/src/database/DatabaseManager.cpp.o: /home/nazmul/Desktop/FinanceTracker/src/database/DatabaseManager.cpp
+CMakeFiles/FinanceTracker.dir/src/database/DatabaseManager.cpp.o: /home/nazmul/Desktop/FinanceTracker\ /src/database/DatabaseManager.cpp
 CMakeFiles/FinanceTracker.dir/src/database/DatabaseManager.cpp.o: CMakeFiles/FinanceTracker.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/nazmul/Desktop/FinanceTracker/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/FinanceTracker.dir/src/database/DatabaseManager.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/FinanceTracker.dir/src/database/DatabaseManager.cpp.o -MF CMakeFiles/FinanceTracker.dir/src/database/DatabaseManager.cpp.o.d -o CMakeFiles/FinanceTracker.dir/src/database/DatabaseManager.cpp.o -c /home/nazmul/Desktop/FinanceTracker/src/database/DatabaseManager.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/nazmul/Desktop/FinanceTracker /build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/FinanceTracker.dir/src/database/DatabaseManager.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/FinanceTracker.dir/src/database/DatabaseManager.cpp.o -MF CMakeFiles/FinanceTracker.dir/src/database/DatabaseManager.cpp.o.d -o CMakeFiles/FinanceTracker.dir/src/database/DatabaseManager.cpp.o -c "/home/nazmul/Desktop/FinanceTracker /src/database/DatabaseManager.cpp"
 
 CMakeFiles/FinanceTracker.dir/src/database/DatabaseManager.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/FinanceTracker.dir/src/database/DatabaseManager.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nazmul/Desktop/FinanceTracker/src/database/DatabaseManager.cpp > CMakeFiles/FinanceTracker.dir/src/database/DatabaseManager.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/nazmul/Desktop/FinanceTracker /src/database/DatabaseManager.cpp" > CMakeFiles/FinanceTracker.dir/src/database/DatabaseManager.cpp.i
 
 CMakeFiles/FinanceTracker.dir/src/database/DatabaseManager.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/FinanceTracker.dir/src/database/DatabaseManager.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nazmul/Desktop/FinanceTracker/src/database/DatabaseManager.cpp -o CMakeFiles/FinanceTracker.dir/src/database/DatabaseManager.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/nazmul/Desktop/FinanceTracker /src/database/DatabaseManager.cpp" -o CMakeFiles/FinanceTracker.dir/src/database/DatabaseManager.cpp.s
 
 CMakeFiles/FinanceTracker.dir/src/ui/MainWindow.cpp.o: CMakeFiles/FinanceTracker.dir/flags.make
-CMakeFiles/FinanceTracker.dir/src/ui/MainWindow.cpp.o: /home/nazmul/Desktop/FinanceTracker/src/ui/MainWindow.cpp
+CMakeFiles/FinanceTracker.dir/src/ui/MainWindow.cpp.o: /home/nazmul/Desktop/FinanceTracker\ /src/ui/MainWindow.cpp
 CMakeFiles/FinanceTracker.dir/src/ui/MainWindow.cpp.o: CMakeFiles/FinanceTracker.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/nazmul/Desktop/FinanceTracker/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/FinanceTracker.dir/src/ui/MainWindow.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/FinanceTracker.dir/src/ui/MainWindow.cpp.o -MF CMakeFiles/FinanceTracker.dir/src/ui/MainWindow.cpp.o.d -o CMakeFiles/FinanceTracker.dir/src/ui/MainWindow.cpp.o -c /home/nazmul/Desktop/FinanceTracker/src/ui/MainWindow.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/nazmul/Desktop/FinanceTracker /build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/FinanceTracker.dir/src/ui/MainWindow.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/FinanceTracker.dir/src/ui/MainWindow.cpp.o -MF CMakeFiles/FinanceTracker.dir/src/ui/MainWindow.cpp.o.d -o CMakeFiles/FinanceTracker.dir/src/ui/MainWindow.cpp.o -c "/home/nazmul/Desktop/FinanceTracker /src/ui/MainWindow.cpp"
 
 CMakeFiles/FinanceTracker.dir/src/ui/MainWindow.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/FinanceTracker.dir/src/ui/MainWindow.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nazmul/Desktop/FinanceTracker/src/ui/MainWindow.cpp > CMakeFiles/FinanceTracker.dir/src/ui/MainWindow.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/nazmul/Desktop/FinanceTracker /src/ui/MainWindow.cpp" > CMakeFiles/FinanceTracker.dir/src/ui/MainWindow.cpp.i
 
 CMakeFiles/FinanceTracker.dir/src/ui/MainWindow.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/FinanceTracker.dir/src/ui/MainWindow.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nazmul/Desktop/FinanceTracker/src/ui/MainWindow.cpp -o CMakeFiles/FinanceTracker.dir/src/ui/MainWindow.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/nazmul/Desktop/FinanceTracker /src/ui/MainWindow.cpp" -o CMakeFiles/FinanceTracker.dir/src/ui/MainWindow.cpp.s
 
 CMakeFiles/FinanceTracker.dir/src/ui/AddTransactionDialog.cpp.o: CMakeFiles/FinanceTracker.dir/flags.make
-CMakeFiles/FinanceTracker.dir/src/ui/AddTransactionDialog.cpp.o: /home/nazmul/Desktop/FinanceTracker/src/ui/AddTransactionDialog.cpp
+CMakeFiles/FinanceTracker.dir/src/ui/AddTransactionDialog.cpp.o: /home/nazmul/Desktop/FinanceTracker\ /src/ui/AddTransactionDialog.cpp
 CMakeFiles/FinanceTracker.dir/src/ui/AddTransactionDialog.cpp.o: CMakeFiles/FinanceTracker.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/nazmul/Desktop/FinanceTracker/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/FinanceTracker.dir/src/ui/AddTransactionDialog.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/FinanceTracker.dir/src/ui/AddTransactionDialog.cpp.o -MF CMakeFiles/FinanceTracker.dir/src/ui/AddTransactionDialog.cpp.o.d -o CMakeFiles/FinanceTracker.dir/src/ui/AddTransactionDialog.cpp.o -c /home/nazmul/Desktop/FinanceTracker/src/ui/AddTransactionDialog.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/nazmul/Desktop/FinanceTracker /build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/FinanceTracker.dir/src/ui/AddTransactionDialog.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/FinanceTracker.dir/src/ui/AddTransactionDialog.cpp.o -MF CMakeFiles/FinanceTracker.dir/src/ui/AddTransactionDialog.cpp.o.d -o CMakeFiles/FinanceTracker.dir/src/ui/AddTransactionDialog.cpp.o -c "/home/nazmul/Desktop/FinanceTracker /src/ui/AddTransactionDialog.cpp"
 
 CMakeFiles/FinanceTracker.dir/src/ui/AddTransactionDialog.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/FinanceTracker.dir/src/ui/AddTransactionDialog.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nazmul/Desktop/FinanceTracker/src/ui/AddTransactionDialog.cpp > CMakeFiles/FinanceTracker.dir/src/ui/AddTransactionDialog.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/nazmul/Desktop/FinanceTracker /src/ui/AddTransactionDialog.cpp" > CMakeFiles/FinanceTracker.dir/src/ui/AddTransactionDialog.cpp.i
 
 CMakeFiles/FinanceTracker.dir/src/ui/AddTransactionDialog.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/FinanceTracker.dir/src/ui/AddTransactionDialog.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nazmul/Desktop/FinanceTracker/src/ui/AddTransactionDialog.cpp -o CMakeFiles/FinanceTracker.dir/src/ui/AddTransactionDialog.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/nazmul/Desktop/FinanceTracker /src/ui/AddTransactionDialog.cpp" -o CMakeFiles/FinanceTracker.dir/src/ui/AddTransactionDialog.cpp.s
 
 CMakeFiles/FinanceTracker.dir/src/ui/DashboardWidget.cpp.o: CMakeFiles/FinanceTracker.dir/flags.make
-CMakeFiles/FinanceTracker.dir/src/ui/DashboardWidget.cpp.o: /home/nazmul/Desktop/FinanceTracker/src/ui/DashboardWidget.cpp
+CMakeFiles/FinanceTracker.dir/src/ui/DashboardWidget.cpp.o: /home/nazmul/Desktop/FinanceTracker\ /src/ui/DashboardWidget.cpp
 CMakeFiles/FinanceTracker.dir/src/ui/DashboardWidget.cpp.o: CMakeFiles/FinanceTracker.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/nazmul/Desktop/FinanceTracker/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/FinanceTracker.dir/src/ui/DashboardWidget.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/FinanceTracker.dir/src/ui/DashboardWidget.cpp.o -MF CMakeFiles/FinanceTracker.dir/src/ui/DashboardWidget.cpp.o.d -o CMakeFiles/FinanceTracker.dir/src/ui/DashboardWidget.cpp.o -c /home/nazmul/Desktop/FinanceTracker/src/ui/DashboardWidget.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/nazmul/Desktop/FinanceTracker /build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/FinanceTracker.dir/src/ui/DashboardWidget.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/FinanceTracker.dir/src/ui/DashboardWidget.cpp.o -MF CMakeFiles/FinanceTracker.dir/src/ui/DashboardWidget.cpp.o.d -o CMakeFiles/FinanceTracker.dir/src/ui/DashboardWidget.cpp.o -c "/home/nazmul/Desktop/FinanceTracker /src/ui/DashboardWidget.cpp"
 
 CMakeFiles/FinanceTracker.dir/src/ui/DashboardWidget.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/FinanceTracker.dir/src/ui/DashboardWidget.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nazmul/Desktop/FinanceTracker/src/ui/DashboardWidget.cpp > CMakeFiles/FinanceTracker.dir/src/ui/DashboardWidget.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/nazmul/Desktop/FinanceTracker /src/ui/DashboardWidget.cpp" > CMakeFiles/FinanceTracker.dir/src/ui/DashboardWidget.cpp.i
 
 CMakeFiles/FinanceTracker.dir/src/ui/DashboardWidget.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/FinanceTracker.dir/src/ui/DashboardWidget.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nazmul/Desktop/FinanceTracker/src/ui/DashboardWidget.cpp -o CMakeFiles/FinanceTracker.dir/src/ui/DashboardWidget.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/nazmul/Desktop/FinanceTracker /src/ui/DashboardWidget.cpp" -o CMakeFiles/FinanceTracker.dir/src/ui/DashboardWidget.cpp.s
 
 CMakeFiles/FinanceTracker.dir/src/utils/CSVExporter.cpp.o: CMakeFiles/FinanceTracker.dir/flags.make
-CMakeFiles/FinanceTracker.dir/src/utils/CSVExporter.cpp.o: /home/nazmul/Desktop/FinanceTracker/src/utils/CSVExporter.cpp
+CMakeFiles/FinanceTracker.dir/src/utils/CSVExporter.cpp.o: /home/nazmul/Desktop/FinanceTracker\ /src/utils/CSVExporter.cpp
 CMakeFiles/FinanceTracker.dir/src/utils/CSVExporter.cpp.o: CMakeFiles/FinanceTracker.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/nazmul/Desktop/FinanceTracker/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/FinanceTracker.dir/src/utils/CSVExporter.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/FinanceTracker.dir/src/utils/CSVExporter.cpp.o -MF CMakeFiles/FinanceTracker.dir/src/utils/CSVExporter.cpp.o.d -o CMakeFiles/FinanceTracker.dir/src/utils/CSVExporter.cpp.o -c /home/nazmul/Desktop/FinanceTracker/src/utils/CSVExporter.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/nazmul/Desktop/FinanceTracker /build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/FinanceTracker.dir/src/utils/CSVExporter.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/FinanceTracker.dir/src/utils/CSVExporter.cpp.o -MF CMakeFiles/FinanceTracker.dir/src/utils/CSVExporter.cpp.o.d -o CMakeFiles/FinanceTracker.dir/src/utils/CSVExporter.cpp.o -c "/home/nazmul/Desktop/FinanceTracker /src/utils/CSVExporter.cpp"
 
 CMakeFiles/FinanceTracker.dir/src/utils/CSVExporter.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/FinanceTracker.dir/src/utils/CSVExporter.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nazmul/Desktop/FinanceTracker/src/utils/CSVExporter.cpp > CMakeFiles/FinanceTracker.dir/src/utils/CSVExporter.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/nazmul/Desktop/FinanceTracker /src/utils/CSVExporter.cpp" > CMakeFiles/FinanceTracker.dir/src/utils/CSVExporter.cpp.i
 
 CMakeFiles/FinanceTracker.dir/src/utils/CSVExporter.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/FinanceTracker.dir/src/utils/CSVExporter.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nazmul/Desktop/FinanceTracker/src/utils/CSVExporter.cpp -o CMakeFiles/FinanceTracker.dir/src/utils/CSVExporter.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/nazmul/Desktop/FinanceTracker /src/utils/CSVExporter.cpp" -o CMakeFiles/FinanceTracker.dir/src/utils/CSVExporter.cpp.s
 
 # Object files for target FinanceTracker
 FinanceTracker_OBJECTS = \
@@ -253,7 +253,7 @@ FinanceTracker: /usr/lib/x86_64-linux-gnu/libQt6Core.so.6.4.2
 FinanceTracker: /usr/lib/x86_64-linux-gnu/libGLX.so
 FinanceTracker: /usr/lib/x86_64-linux-gnu/libOpenGL.so
 FinanceTracker: CMakeFiles/FinanceTracker.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/nazmul/Desktop/FinanceTracker/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Linking CXX executable FinanceTracker"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir="/home/nazmul/Desktop/FinanceTracker /build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_12) "Linking CXX executable FinanceTracker"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/FinanceTracker.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -265,6 +265,6 @@ CMakeFiles/FinanceTracker.dir/clean:
 .PHONY : CMakeFiles/FinanceTracker.dir/clean
 
 CMakeFiles/FinanceTracker.dir/depend: FinanceTracker_autogen/timestamp
-	cd /home/nazmul/Desktop/FinanceTracker/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/nazmul/Desktop/FinanceTracker /home/nazmul/Desktop/FinanceTracker /home/nazmul/Desktop/FinanceTracker/build /home/nazmul/Desktop/FinanceTracker/build /home/nazmul/Desktop/FinanceTracker/build/CMakeFiles/FinanceTracker.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd "/home/nazmul/Desktop/FinanceTracker /build" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/home/nazmul/Desktop/FinanceTracker " "/home/nazmul/Desktop/FinanceTracker " "/home/nazmul/Desktop/FinanceTracker /build" "/home/nazmul/Desktop/FinanceTracker /build" "/home/nazmul/Desktop/FinanceTracker /build/CMakeFiles/FinanceTracker.dir/DependInfo.cmake" "--color=$(COLOR)"
 .PHONY : CMakeFiles/FinanceTracker.dir/depend
 

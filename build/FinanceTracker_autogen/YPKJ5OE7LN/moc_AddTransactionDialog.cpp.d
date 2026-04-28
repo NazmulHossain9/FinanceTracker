@@ -1,5 +1,5 @@
-/home/nazmul/Desktop/FinanceTracker/build/FinanceTracker_autogen/YPKJ5OE7LN/moc_AddTransactionDialog.cpp: /home/nazmul/Desktop/FinanceTracker/src/ui/AddTransactionDialog.h \
-  /home/nazmul/Desktop/FinanceTracker/build/FinanceTracker_autogen/moc_predefs.h \
+/home/nazmul/Desktop/FinanceTracker\ /build/FinanceTracker_autogen/YPKJ5OE7LN/moc_AddTransactionDialog.cpp: /home/nazmul/Desktop/FinanceTracker\ /src/ui/AddTransactionDialog.h \
+  /home/nazmul/Desktop/FinanceTracker\ /build/FinanceTracker_autogen/moc_predefs.h \
   /usr/include/alloca.h \
   /usr/include/asm-generic/errno-base.h \
   /usr/include/asm-generic/errno.h \

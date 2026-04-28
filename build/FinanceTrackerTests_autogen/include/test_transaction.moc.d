@@ -1,7 +1,7 @@
-/home/nazmul/Desktop/FinanceTracker/build/FinanceTrackerTests_autogen/include/test_transaction.moc: /home/nazmul/Desktop/FinanceTracker/tests/test_transaction.cpp \
-  /home/nazmul/Desktop/FinanceTracker/build/FinanceTrackerTests_autogen/moc_predefs.h \
-  /home/nazmul/Desktop/FinanceTracker/src/models/Budget.h \
-  /home/nazmul/Desktop/FinanceTracker/src/models/Transaction.h \
+/home/nazmul/Desktop/FinanceTracker\ /build/FinanceTrackerTests_autogen/include/test_transaction.moc: /home/nazmul/Desktop/FinanceTracker\ /tests/test_transaction.cpp \
+  /home/nazmul/Desktop/FinanceTracker\ /build/FinanceTrackerTests_autogen/moc_predefs.h \
+  /home/nazmul/Desktop/FinanceTracker\ /src/models/Budget.h \
+  /home/nazmul/Desktop/FinanceTracker\ /src/models/Transaction.h \
   /usr/include/asm-generic/errno-base.h \
   /usr/include/asm-generic/errno.h \
   /usr/include/assert.h \

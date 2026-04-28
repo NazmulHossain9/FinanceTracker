@@ -1,5 +1,5 @@
-/home/nazmul/Desktop/FinanceTracker/build/FinanceTracker_autogen/YPKJ5OE7LN/moc_MainWindow.cpp: /home/nazmul/Desktop/FinanceTracker/src/ui/MainWindow.h \
-  /home/nazmul/Desktop/FinanceTracker/build/FinanceTracker_autogen/moc_predefs.h \
+/home/nazmul/Desktop/FinanceTracker\ /build/FinanceTracker_autogen/YPKJ5OE7LN/moc_MainWindow.cpp: /home/nazmul/Desktop/FinanceTracker\ /src/ui/MainWindow.h \
+  /home/nazmul/Desktop/FinanceTracker\ /build/FinanceTracker_autogen/moc_predefs.h \
   /usr/include/alloca.h \
   /usr/include/asm-generic/errno-base.h \
   /usr/include/asm-generic/errno.h \

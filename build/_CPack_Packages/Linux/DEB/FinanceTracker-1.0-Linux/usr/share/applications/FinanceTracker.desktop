@@ -1,0 +1,11 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=FinanceTracker
+Comment=Personal Finance Tracker - manage transactions, budgets and accounts
+Exec=FinanceTracker
+Icon=FinanceTracker
+Terminal=false
+Categories=Office;Finance;
+Keywords=finance;budget;money;tracker;expense;
+StartupNotify=true
